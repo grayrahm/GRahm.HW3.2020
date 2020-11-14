@@ -2,7 +2,12 @@ import java.util.LinkedList;
 
 class DataSmooth2 {
   DataSmooth2(){}
-  
+	/**
+	 * takes a list of shows and smooths the runtimes of the episodes
+	 * @param shows a list of shows
+	 * @return the smooth list
+	 */
+
   public LinkedList<Double> dataSmooth(LinkedList<Show> shows) 
   {
 	  LinkedList<LinkedList<Double>> listOfLists = new LinkedList<>();
@@ -44,4 +49,6 @@ class DataSmooth2 {
 	  return smooth;
 
   }
+
+
 }

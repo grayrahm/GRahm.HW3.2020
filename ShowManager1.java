@@ -4,6 +4,12 @@ class ShowManager1 {
 	
 	ShowManager1() {}
 
+	/**
+	 * sorts the shows into list based on their runtime
+	 * @param shows is a list of all shows
+	 * @return a list of on non special shows and shows that are not overnight
+	 */
+
 	public ShowSummary organizeShows(LinkedList<Show> shows)
 	{
 		LinkedList<Show> dayTime = new LinkedList<Show>();
@@ -24,8 +30,7 @@ class ShowManager1 {
 
 
 		}
-		ShowSummary organizedShows = new ShowSummary (dayTime, primeTime, lateNight);
-		return organizedShows;
+		return new ShowSummary (dayTime, primeTime, lateNight);
 	}
 	
 }

@@ -2,6 +2,7 @@ class MaxHzReport {
   double date;
   double maxReading;
 
+
   MaxHzReport(double date, double maxread) {
     this.date = date;
     this.maxReading = maxread;

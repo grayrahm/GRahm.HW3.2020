@@ -10,19 +10,19 @@ public class ShowExamples
     ShowManager1 sm3 = new ShowManager1();
     ShowManager1 sm4 = new ShowManager1();
     ShowManager2 sm5 = new ShowManager2();
-    ShowManager2 sm6 = new ShowManager2();
-    ShowManager2 sm7 = new ShowManager2();
-    ShowManager2 sm8 = new ShowManager2();
+
 
     LinkedList<Show> shows = new LinkedList<Show>();
     LinkedList<Show> shows2 = new LinkedList<Show>();
     LinkedList<Show> shows3 = new LinkedList<Show>();
     LinkedList<Show> shows4 = new LinkedList<Show>();
+    LinkedList<Show> shows5 = new LinkedList<Show>();
+
     ShowSummary report1 = new ShowSummary();
     ShowSummary report2 = new ShowSummary();
     ShowSummary report3 = new ShowSummary();
     ShowSummary report4 = new ShowSummary();
-    ShowSummary report5 = new ShowSummary();
+
 
 
 
@@ -113,6 +113,7 @@ public class ShowExamples
 
 
 
+
     }
 
     //////testing Show manager 1
@@ -126,21 +127,21 @@ public class ShowExamples
 
     //test only daytime with edge case
     @Test
-    public void instructorTestOrganizeShows2()
+    public void TestOrganizeShows2()
     {
         ShowSummary reports2 = sm2.organizeShows(shows2);
         assertEquals(report2, reports2);
     }
     // test only primetime with edge case
     @Test
-    public void instructorTestOrganizeShows3()
+    public void TestOrganizeShows3()
     {
         ShowSummary reports3 = sm3.organizeShows(shows3);
         assertEquals(report3, reports3);
     }
     // test only latenight
     @Test
-    public void instructorTestOrganizeShows4()
+    public void TestOrganizeShows4()
     {
         ShowSummary reports4 = sm4.organizeShows(shows4);
         assertEquals(report4, reports4);
@@ -150,11 +151,12 @@ public class ShowExamples
     @Test
     public void instructorTestOrganizeShows5()
     {
-        ShowSummary reports5 = sm5.organizeShows(shows);
-        assertEquals(report5, reports5);
+        ShowSummary report2 = sm5.organizeShows(shows5);
+        assertEquals(report1, report2);
     }
 
-    //
+
+
 
 }
 
