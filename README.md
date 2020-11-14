@@ -1,6 +1,15 @@
 # GRahm.HW3.2020
 
 
+to the poor soul that stumbles across this code:
+-its okay to be struggling
+-just because you dont understand CS 2102 doesnt mean you dont belong at STEM school
+- please do not use this code it is mostly wrong
+-use Micky's code she knows more
+-comp sci sucks, I am changing my major to ME
+
+
+
 figure out how to mesh code between Caitlyns and Mine
 
 
